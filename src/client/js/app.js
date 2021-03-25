@@ -3,3 +3,7 @@
 //import styles?
 
 //export other js files
+
+createForm()
+
+createResults()

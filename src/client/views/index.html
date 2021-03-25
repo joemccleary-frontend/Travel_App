@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html>
     <head>
         <title>Postcard Your Future</title>
         <meta charset="UTF-8">
@@ -21,13 +21,47 @@
                 </div class="button">
                     <button class="start" onclick="createForm()">Start</button>
                 </div>
-    
             </section>
+
+            <section id="inputPage">
+                <div class="from">
+                    <input type="text" name="from" autocomplete="off" required />
+                    <label for="from" class="label-name" >
+                        <span class="content-name">From</span>
+                    </label>
+                </div>
+                <div class="to">
+                    <input type="text" name="to" autocomplete="off" required />
+                    <label for="to" class="label-name" >
+                        <span class="content-name">To</span>
+                    </label>
+                </div>
+                <div class="date">
+                    <input type="date" id="Departure" required />
+                    <label for="Departure Date" class="label-name" >
+                        <span class="content-name"></span>
+                    </label>
+                </div>
+        
+                <div>
+                    <div id="quote">
+                        <p><em>"To see the world, things dangerous to come, to see behind walls, draw closer, 
+                        to find each other, and to feel. That is the purpose of life."</em></p>
+                    </div>
+                </div>
+                <div>
+                    </div class="button">
+                        <button id="create" onclick="createResults()">Create</button>
+                    </div>
+                </div>
+
+        
+
+            </section>
+
         </main>
 
-        <footer  class="footer">
-            <div>Made by JPMC for Udacity's Front End Nanodegree - Capstone Travel Project</div>
-        </footer>
+
 
         <script>//add js here</script>
     </body>
