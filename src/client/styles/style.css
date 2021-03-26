@@ -170,16 +170,54 @@ button.start:hover{
     position: relative;
     bottom: 40px;
 }
-
-/*Results*/
 .invisible {
     display: none !important;
 }
+
+/*Results*/
 .invisible2 {
     display: none !important;
-}
+    
 
-#results {
+}
+#trip_deets {
     height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    font-family: sans-serif;
 }
 
+#quote {
+    margin-bottom: 100px;
+}
+
+#postcardImage {
+    width: 580px;
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+#postcardBack {
+    width: 580px;
+}
+#boxborder {
+    background-color: burlywood;
+    width: 700px;
+    height: 700px;
+}
+#reset{
+    padding: 15px;
+    padding-left: 45px;
+    padding-right: 45px;
+    border: none;
+    border-radius: 30px;
+    background-color: #121640;
+    color: #01adb3;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-family: 'Open Sans', sans-serif;
+    outline: none;
+    cursor: pointer;
+}

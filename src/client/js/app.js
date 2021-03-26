@@ -104,7 +104,7 @@ Endpoints:
 "flag": "https://restcountries.eu/data/col.svg",
 
 Function updateUI(city, countryName, app_temp, weatherIcon, weatherDesc, cityImage, timezone, currency, language, flag) {
-    
+
 }
 
 
@@ -121,4 +121,8 @@ function createResults() {
     document.getElementById("trip_deets").classList.remove("invisible2");
     trip_deets.scrollIntoView({behavior: "smooth"});
 
+}
+
+function reset() {
+    document.getElementById("trip_deets").classList.add("invisible2");
 }
