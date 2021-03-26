@@ -4,6 +4,4 @@
 
 //export other js files
 
-createForm()
-
 createResults()
