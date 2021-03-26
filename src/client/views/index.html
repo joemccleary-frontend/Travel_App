@@ -19,11 +19,11 @@
                 </div>
 
                 </div class="button">
-                    <button class="start" onclick="location.href='#inputPage';">Start</button>
+                    <button class="start" onclick=createInput()>Start</button>
                 </div>
             </section>
-
-            <section id="inputPage">
+            
+            <section class="invisible" id="inputPage">
                 <div class="from">
                     <input type="text" name="from" autocomplete="off" required />
                     <label for="from" class="label-name" >
@@ -55,11 +55,18 @@
                 </div>
                 <div>
                     </div class="button">
-                        <button id="create" onclick="createResults()">Create</button>
+                        <button id="create" onclick=createResults()>Create</button>
                     </div>
+                </div>       
+            </section>
+
+            <section class="invisible2" id="trip_deets">
+                <div id=results>
+                    <p>
+                        HELLLLLLLLLLLLLLLLLLLLLLLLo
+                    </p>
                 </div>
 
-        
 
             </section>
 
@@ -67,6 +74,6 @@
 
 
 
-        <script>//add js here</script>
+        <script src="../js/app.js"></script>
     </body>
 
