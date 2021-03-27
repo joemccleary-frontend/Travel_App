@@ -8,6 +8,9 @@
         <link rel="stylesheet" href="../styles/style.css">
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
+
     </head>
     <body>
         <header></header>
@@ -63,12 +66,22 @@
             <section class="invisible2" id="trip_deets">
                 <div id="results">
                     <h2 id="greetings">Greetings from...</h2>
-                    <div>
-                        <div id="boxborder"></div>
-                        <img src="../img/postcard_chester.jpg" id="postcardImage">
+                    <div class="cardFront">
+                        <img src="../img/postcard_chester.jpg" id="postcardImage" style="width:100%;">
+                        <div class="locationCard">Location</div>
                     </div>
+                    <div class="cardBack">
+                        <img src="../img/postcard-back.jpg" id="postcardBack" style="width:100%;">
+                        <div class="location">City, Country</div>
+                        <div class="temp">Currently feels like Temp</div>
+                        <div class="weatherIcon">ICON</div>
+                        <div class="flag">flag</div>
+                        <div class="intro">Get ready, you'll be here in X days!</div>
+                        <div class="language">Brush up on your Language</div>
+                        <div class="currency">Make sure to bring your Currency</div>
+                        <div class="timezone">Reset your watch countrys timezone is</div>
 
-                    <img src="../img/postcard-back.jpg" id="postcardBack">
+                    </div>
                 </div>
 
                 </div class="button">

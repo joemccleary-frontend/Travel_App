@@ -183,29 +183,32 @@ button.start:hover{
 #trip_deets {
     height: 100vh;
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    flex-direction: column;
     font-family: sans-serif;
+    background-color: white;
+
+    font-family: 'Architects Daughter', cursive;
+
 }
 
-#quote {
-    margin-bottom: 100px;
+#greetings {
+    text-align: center;
+    padding-bottom: 20px;
 }
 
 #postcardImage {
-    width: 580px;
+    width: 580px !important;
     margin-bottom: 50px;
-    margin-top: 30px;
+   /* margin-top: 30px;
+    */
+    border: #e2d5c7 10px solid;
 }
 #postcardBack {
-    width: 580px;
+    width: 580px !important;
 }
-#boxborder {
-    background-color: burlywood;
-    width: 700px;
-    height: 700px;
-}
+
 #reset{
     padding: 15px;
     padding-left: 45px;
@@ -220,4 +223,64 @@ button.start:hover{
     font-family: 'Open Sans', sans-serif;
     outline: none;
     cursor: pointer;
+}
+.cardFront {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+  
+.locationCard {
+    position: absolute;
+    bottom: 68px;
+    left: 16px;
+    font-size: 2rem;
+    -webkit-text-stroke: 1px black;
+	-webkit-text-fill-color: white;
+}
+.cardBack {
+    position: relative;
+    text-align: center;
+    color: black;
+}
+.location {
+    position: absolute;
+    bottom: 18px;
+    left: 70px;
+}
+.temp {
+    position: absolute;
+    bottom: 100px;
+    left: 40px;
+}
+.weatherIcon {
+    position: absolute;
+    bottom: 230px;
+    left: 100px;
+}
+.flag {
+    position: absolute;
+    bottom: 300px;
+    left: 270px;
+}
+.intro {
+    position: absolute;
+    bottom: 195px;
+    left: 270px;
+}
+.language {
+    position: absolute;
+    bottom: 145px;
+    left: 270px;
+}
+.currency {
+    position: absolute;
+    bottom: 80px;
+    left: 270px;
+}
+
+.timezone {
+    position: absolute;
+    bottom: 30px;
+    left: 270px;
 }
